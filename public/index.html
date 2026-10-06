@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twittroyes — Download Twitter/X Videos</title>
+  <meta name="description" content="Paste a Twitter/X post link and download the video in the quality you want." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark">T</span>
+        <span class="logo-text">twittroyes</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#how-it-works">How it works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Download Twitter / X videos in seconds</h1>
+        <p class="subtitle">Paste the link to any public video post below. No app, no signup.</p>
+
+        <form id="download-form" class="download-form" autocomplete="off">
+          <input
+            type="url"
+            id="tweet-url"
+            name="tweet-url"
+            placeholder="https://x.com/username/status/1234567890"
+            required
+          />
+          <button type="submit" id="submit-btn">Download</button>
+        </form>
+
+        <p id="status-message" class="status-message" hidden></p>
+      </div>
+    </section>
+
+    <section id="result-section" class="result-section" hidden>
+      <div class="container">
+        <div class="result-card" id="result-card">
+          <!-- Populated by js/app.js -->
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="info-section">
+      <div class="container">
+        <h2>How it works</h2>
+        <ol class="steps">
+          <li>
+            <span class="step-number">1</span>
+            <div>
+              <h3>Copy the post link</h3>
+              <p>Open the tweet/post on Twitter/X that contains the video and copy its URL.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">2</span>
+            <div>
+              <h3>Paste it above</h3>
+              <p>Drop the link into the box and hit <strong>Download</strong>.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-number">3</span>
+            <div>
+              <h3>Pick a quality</h3>
+              <p>Choose from the available resolutions and save the file to your device.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="faq" class="info-section faq">
+      <div class="container">
+        <h2>FAQ</h2>
+
+        <div class="faq-item">
+          <h3>Is this free?</h3>
+          <p>Yes, twittroyes is free to use.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Does this work on private accounts?</h3>
+          <p>No. Only videos from public posts can be fetched.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can I use this on mobile?</h3>
+          <p>Yes, the site works on any modern mobile or desktop browser.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> twittroyes. Not affiliated with Twitter/X. For personal use only — please respect content owners' rights.</p>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
