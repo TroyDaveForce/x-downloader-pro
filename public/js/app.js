@@ -89,6 +89,15 @@ function renderResult(data) {
       <div class="quality-list">
         ${qualityItems}
       </div>
+      <p class="iphone-tip" style="font-size: 13px; color: #888; margin-top: 15px; text-align: center; line-height: 1.5;">
+        📱 <strong>iPhone users:</strong> After tapping Download, tap the <strong>Share icon</strong> and select <strong>"Save to Files"</strong> to save the video to your phone.
+      </p>
+    </div>
+  `;
+
+  resultSection.hidden = false;
+  resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
     </div>
   `;
 
