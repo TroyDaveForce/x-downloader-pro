@@ -1,4 +1,4 @@
-# twittroyes
+# x-downloader-pro
 
 A simple, self-hosted web app for downloading videos from public Twitter/X posts. Paste a post link, get back the video in the available resolutions.
 
@@ -7,7 +7,7 @@ A simple, self-hosted web app for downloading videos from public Twitter/X posts
 ## Project structure
 
 ```
-twittroyes/
+x-downloader-pro/
 ├── package.json
 ├── .env.example
 ├── server/
@@ -24,7 +24,7 @@ twittroyes/
 
 ## Running it in VS Code
 
-1. **Open the folder**: `File > Open Folder…` and select the `twittroyes` folder.
+1. **Open the folder**: `File > Open Folder…` and select the `x-downloader-pro` folder.
 2. **Open a terminal** in VS Code: `Terminal > New Terminal`.
 3. **Install dependencies**:
    ```bash

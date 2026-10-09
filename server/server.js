@@ -22,7 +22,7 @@ app.use('/api', downloadRoutes);
 
 // ---- Health check ----
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', service: 'twittroyes' });
+  res.json({ status: 'ok', service: 'x-downloader-pro' });
 });
 
 // ---- Fallback to index.html for any non-API route ----
@@ -31,5 +31,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Twittroyes server running at http://localhost:${PORT}`);
+  console.log(`X-Downloader-Pro server running at http://localhost:${PORT}`);
 });

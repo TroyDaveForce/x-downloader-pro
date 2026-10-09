@@ -1,7 +1,7 @@
 {
-  "name": "twittroyes",
+  "name": "x-downloader-pro",
   "version": "1.0.0",
-  "description": "Twittroyes - download videos from Twitter/X posts by pasting a link.",
+  "description": "X-Downloader-Pro - download videos from Twitter/X posts by pasting a link.",
   "private": true,
   "scripts": {
     "start": "node server/server.js",
