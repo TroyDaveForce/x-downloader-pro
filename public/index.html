@@ -28,16 +28,18 @@
         <h1>Download Twitter / X videos in seconds</h1>
         <p class="subtitle">Paste the link to any public video post below. No app, no signup.</p>
 
-        <form id="download-form" class="download-form" autocomplete="off">
+        <form id="download-form" class="flex flex-col sm:flex-row gap-3 mb-4">
           <input
-            type="url"
-            id="tweet-url"
-            name="tweet-url"
-            placeholder="https://x.com/username/status/1234567890"
-            required
-            style="height: 50px; width: 100%; box-sizing: border-box; font-size: 16px;"
+          type="url"
+          id="tweet-url"
+          name="tweet-url"
+          placeholder="https://x.com/username/status/123456789"
+          required
+          class="h-14 w-full px-4 rounded-xl border border-gray-700 bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 transition"
           />
-          <button type="submit" id="submit-btn">Download</button>
+          <button type="submit" id="submit-btn" class="h-14 w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 rounded-xl transition disabled:opacity-50">
+            Download
+          </button>
         </form>
 
         <p id="status-message" class="status-message" hidden></p>
