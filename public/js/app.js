@@ -98,12 +98,6 @@ function renderResult(data) {
   resultSection.hidden = false;
   resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
-    </div>
-  `;
-
-  resultSection.hidden = false;
-  resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
 
 function escapeHtml(str) {
   const div = document.createElement('div');
