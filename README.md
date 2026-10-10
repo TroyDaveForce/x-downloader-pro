@@ -27,6 +27,7 @@ First, clone the repository and install the dependencies:
 
 ```bash
 npm install
+```
 
 ## ⚠️ Disclaimer
 
