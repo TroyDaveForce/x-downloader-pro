@@ -27,3 +27,16 @@ First, clone the repository and install the dependencies:
 
 ```bash
 npm install
+
+## ⚠️ Disclaimer
+
+**This project is for educational purposes only.**
+We are not affiliated with X Corp. We do not host any of the videos downloaded through this tool. Users are solely responsible for ensuring they have the right to download and use any content. Please respect copyright laws and the Terms of Service of X (Twitter).
+
+## 📈 Roadmap
+
+- [ ] Add TikTok Video Downloader page.
+- [ ] Add Instagram Video Downloader page.
+- [ ] Add YouTube Thumbnail Downloader page.
+- [ ] Integrate Google AdSense.
+- [ ] Add user accounts / Pro tier.
