@@ -105,70 +105,30 @@
         </div>
       </div>
     </section>
-    <!-- SEO Content Sections -->
-    
-    <!-- Section 1: How our Twitter Downloader works? -->
-    <section class="mt-16 text-center">
-      <h2 class="text-2xl font-bold mb-4 text-white">How our Twitter Downloader works?</h2>
-      <p class="text-gray-400 max-w-xl mx-auto leading-relaxed">
-        Our online Twitter video downloader works in any browser on mobile or desktop. Follow the instructions below to download a Twitter video and save it as MP4. No registration or app installation is required.
-      </p>
-    </section>
-
-    <!-- Section 2: How to use the Twitter downloader app? -->
-    <section class="mt-16 text-center">
-      <h2 class="text-2xl font-bold mb-6 text-white">How to use the Twitter downloader app?</h2>
-      <p class="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
-        You can download Twitter videos on Android or from any device with a web browser using our X video downloader. The process is fast and free!
-      </p>
-      
-      <div class="flex flex-col items-center gap-6">
-        <!-- Step 1 -->
-        <div class="flex items-center gap-4 bg-gray-900 border border-gray-800 rounded-full px-6 py-4 max-w-md w-full">
-          <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold shrink-0">1</div>
-          <div class="text-left">
-            <h3 class="font-bold text-white">Copy the link</h3>
-            <p class="text-xs text-gray-500">Find the X.com video you want to save.</p>
-          </div>
-        </div>
-        <!-- Step 2 -->
-        <div class="flex items-center gap-4 bg-gray-900 border border-gray-800 rounded-full px-6 py-4 max-w-md w-full">
-          <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold shrink-0">2</div>
-          <div class="text-left">
-            <h3 class="font-bold text-white">Paste it above</h3>
-            <p class="text-xs text-gray-500">Drop the link into the box and hit Download.</p>
-          </div>
-        </div>
-        <!-- Step 3 -->
-        <div class="flex items-center gap-4 bg-gray-900 border border-gray-800 rounded-full px-6 py-4 max-w-md w-full">
-          <div class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold shrink-0">3</div>
-          <div class="text-left">
-            <h3 class="font-bold text-white">Pick a quality</h3>
-            <p class="text-xs text-gray-500">Choose your resolution and save the file.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 3: Copy tweet link (iOS/Android instructions) -->
-    <section class="mt-16 text-center">
-      <h2 class="text-2xl font-bold mb-4 text-white">Copy tweet link</h2>
-      <p class="text-gray-400 max-w-xl mx-auto leading-relaxed mb-6">
-        On iPhone or Android, open the X app, find the video, tap the <strong>Share icon</strong>, and select <strong>"Copy Link"</strong>. Then paste it into our tool above.
-      </p>
-      <div class="bg-gray-900 border border-gray-800 rounded-xl p-4 max-w-md mx-auto">
-        <p class="text-sm text-gray-500 italic">Example: x.com/Eminem/status/943590594491772928</p>
-      </div>
-    </section>
   </main>
 
   <footer class="max-w-3xl mx-auto px-6 mt-16 pb-10">
-    <div class="w-full max-w-[200px] mx-auto">
-      <select class="w-full bg-gray-950 border border-gray-700 text-gray-300 text-sm rounded-lg py-2 px-3 focus:outline-none focus:border-blue-500 text-center">
-        <option>English</option>
-        <option>Español</option>
-        <option>Français</option>
-      </select>
+    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 flex flex-col items-center text-center">
+      
+      <!-- Language Selector (Centered) -->
+      <div class="w-full max-w-[200px] mb-6">
+        <select class="w-full bg-gray-950 border border-gray-700 text-gray-300 text-sm rounded-lg py-2 px-3 focus:outline-none focus:border-blue-500 text-center">
+          <option>English</option>
+        </select>
+      </div>
+
+      <!-- Legal Links (Centered & Stacked) -->
+      <div class="flex flex-col items-center gap-3 text-sm text-gray-400 mb-6">
+        <a href="/privacy.html" class="hover:text-blue-400 transition">Privacy Policy</a>
+        <a href="/terms.html" class="hover:text-blue-400 transition">Terms of Service</a>
+      </div>
+
+      <!-- Disclaimer & Copyright (Centered) -->
+      <div class="text-xs text-gray-500 space-y-1">
+        <p>We are not affiliated with X Corp. Please respect copyright laws.</p>
+        <p>&copy; <span id="year"></span> x-downloader-pro. All rights reserved.</p>
+      </div>
+
     </div>
   </footer>
 
