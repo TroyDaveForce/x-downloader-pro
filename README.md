@@ -44,6 +44,7 @@ npm start
 5. Open your browser and visit http://localhost:3000 (or whatever port your server runs on). 
 
 ## 📈 Roadmap
+
 [ ] Add TikTok Video Downloader page.
 [ ] Add Instagram Video Downloader page.
 [ ] Add YouTube Thumbnail Downloader page.
@@ -52,14 +53,14 @@ npm start
 
 ## 🤝 Contributing
  
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+ Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
  
-📫 Connect with Me
+## 📫 Connect with Me
  
-TroyDaveForce
-• GitHub: @TroyDaveForce
-• LinkedIn: [https://www.linkedin.com/in/david-ekeke]
-• Email: [ekekedavid147@gmail.com] 
+ TroyDaveForce
+ • **GitHub:** [David Ekeke](https://github.com/TroyDaveForce)
+ • **LinkedIn:** [David Ekeke](https://www.linkedin.com/in/david-ekeke)
+ • **Email:** [ekekedavid147@gmail.com](ekekedavid147@gmail.com) 
 
 ## ⚠️ Disclaimer
  
