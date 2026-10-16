@@ -46,9 +46,13 @@ npm start
 ## 📈 Roadmap
 
 [ ] Add TikTok Video Downloader page.
+
 [ ] Add Instagram Video Downloader page.
+
 [ ] Add YouTube Thumbnail Downloader page.
+
 [ ] Integrate Google AdSense.
+
 [ ] Add user accounts / Pro tier. 
 
 ## 🤝 Contributing
@@ -59,7 +63,9 @@ npm start
  
  TroyDaveForce
  • **GitHub:** [David Ekeke](https://github.com/TroyDaveForce)
- • **LinkedIn:** [David Ekeke](https://www.linkedin.com/in/david-ekeke)
+ 
+ • **LinkedIn:** [TroyDaveForce](https://www.linkedin.com/in/david-ekeke)
+ 
  • **Email:** [ekekedavid147@gmail.com](ekekedavid147@gmail.com) 
 
 ## ⚠️ Disclaimer
