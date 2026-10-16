@@ -63,9 +63,9 @@ npm start
  
  TroyDaveForce
  
- • **GitHub:** [David Ekeke](https://github.com/TroyDaveForce)
+ • **GitHub:** [TroyDaveForce](https://github.com/TroyDaveForce)
  
- • **LinkedIn:** [TroyDaveForce](https://www.linkedin.com/in/david-ekeke)
+ • **LinkedIn:** [David Ekeke](https://www.linkedin.com/in/david-ekeke)
  
  • **Email:** [ekekedavid147@gmail.com](ekekedavid147@gmail.com) 
 
